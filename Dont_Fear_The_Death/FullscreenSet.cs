@@ -1,5 +1,4 @@
-using System.Runtime.InteropServices;                                                                                   // Für DllImport und Struktur-Layout
-using System;                                                                                                           // Für IntPtr
+using System.Runtime.InteropServices;                                                                                   // Für DllImport und Struktur-Layout// Für IntPtr
 
 namespace Dont_Fear_The_Death;                                                                                          // Namespace der Anwendung
 
