@@ -9,12 +9,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World!");
-        Thread.Sleep(2000); 
-
         try 
         {
-            Console.WriteLine("For Optimal Experience, click the Window in the next 5 seconds...");
+            Console.WriteLine("For Optimal Experience (Fullscreen), click the Window in the next 5 seconds...");
             Thread.Sleep(5000);
             Game_Data.PressF11();
         }
