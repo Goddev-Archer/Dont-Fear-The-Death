@@ -2,7 +2,7 @@ using System.Runtime.InteropServices;                                           
 
 namespace Dont_Fear_The_Death;                                                                                          // Namespace der Anwendung
 
-public class Game_Data                                                                                                  // Klasse für Spieldaten und Eingabesteuerung
+public class FullscreenSet                                                                                                  // Klasse für Spieldaten und Eingabesteuerung
 {
     public static void PressF11()                                                                                       // Methode zum Simulieren des Tastendrucks F11
     {

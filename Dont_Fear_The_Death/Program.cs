@@ -11,14 +11,15 @@ class Program
     {
         try 
         {
-            Console.WriteLine("For Optimal Experience (Fullscreen), click the Window in the next 5 seconds...");
-            Thread.Sleep(5000);
-            Game_Data.PressF11();
+            CenterText.WriteCentered(Message.FullscreenInformation);
+            Mechanic.mWait();
+            FullscreenSet.PressF11();
+            Mechanic.mWait();
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error: {ex.Message}");
-            Console.WriteLine("Make sure to run the application with appropriate permissions. It is POSSIBLE, that the application needs to be run as Administrator to simulate key presses.");
+            Console.WriteLine(Message.FullscreenFailure);
         }
     }
 }
