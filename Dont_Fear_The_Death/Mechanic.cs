@@ -16,4 +16,9 @@ public class Mechanic
     {
         Thread.Sleep(6000);
     }
+
+    public static void del()
+    {
+        Console.Clear();
+    }
 }

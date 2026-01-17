@@ -15,6 +15,7 @@ class Program
             Mechanic.mWait();
             FullscreenSet.PressF11();
             Mechanic.mWait();
+            Mechanic.del();
         }
         catch (Exception ex)
         {
