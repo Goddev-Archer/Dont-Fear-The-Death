@@ -24,8 +24,9 @@ public class Mechanic
 
     public static void testInput()
     {
-        Console.ReadKey();
         Console.WriteLine(Message.PressAnyKeyToContinue);
+        Console.ReadKey();
+        mWait();
     }
 
     public static void betaExit()
