@@ -13,6 +13,7 @@ class Program
             Mechanic.mWait();
             CenterText.WriteCentered(Message.MainMenuTitle);
             Mechanic.sendEmptyness();
+            CenterText.WriteCentered(GUI.MainMenuMenu);
             Mechanic.testInput();
         }
         catch (Exception ex)
