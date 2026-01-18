@@ -1,9 +1,4 @@
-﻿using Terminal.Gui;
-using Terminal.Gui.Views;
-
-using System.Threading;
-
-namespace Dont_Fear_The_Death;
+﻿namespace Dont_Fear_The_Death;
 
 class Program
 {
@@ -14,13 +9,21 @@ class Program
             CenterText.WriteCentered(Message.FullscreenInformation);
             Mechanic.mWait();
             FullscreenSet.PressF11();
-            Mechanic.mWait();
             Mechanic.del();
+            Mechanic.mWait();
+            CenterText.WriteCentered(Message.MainMenuTitle);
+            Mechanic.sendEmptyness();
+            Mechanic.testInput();
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error: {ex.Message}");
+            Mechanic.del();
+            Mechanic.sendError(ex.Message);
+            Mechanic.sendError(ex.StackTrace);
+            Mechanic.send(Message.betaWarning);
             Console.WriteLine(Message.FullscreenFailure);
+            Mechanic.mWait();
+            Mechanic.betaExit();
         }
     }
 }

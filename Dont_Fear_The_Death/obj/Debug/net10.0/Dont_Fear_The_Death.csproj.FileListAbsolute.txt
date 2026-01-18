@@ -28,3 +28,4 @@ C:\Users\User\Documents\GitHub\Dont-Fear-The-Death\Dont_Fear_The_Death\obj\Debug
 C:\Users\User\Documents\GitHub\Dont-Fear-The-Death\Dont_Fear_The_Death\obj\Debug\net10.0\Dont_Fear_The_Death.pdb
 C:\Users\User\Documents\GitHub\Dont-Fear-The-Death\Dont_Fear_The_Death\obj\Debug\net10.0\Dont_Fear_The_Death.genruntimeconfig.cache
 C:\Users\User\Documents\GitHub\Dont-Fear-The-Death\Dont_Fear_The_Death\obj\Debug\net10.0\ref\Dont_Fear_The_Death.dll
+C:\Users\User\Documents\GitHub\Dont-Fear-The-Death\Dont_Fear_The_Death\obj\Debug\net10.0\Dont_Fear_The_Death.sourcelink.json

@@ -7,6 +7,32 @@ public static class Message
 
     public static string FullscreenFailure =
         "Make sure to run the application with appropriate permissions. It is POSSIBLE, that the application needs to be run as Administrator to simulate key presses.";
+
+    public static string MainMenuTitle =
+        @"   . .       . .       . .       . .    .          . .       . .       . .       . .         
+.+'|=|`+. .+'|=|`+. .+'|=|`+. .+'|=|`+.=|`+.    .+'|=|`+. .+'|=|`+. .+'|=|`+. .+'|=|`+.      
+|  | `+ | |  | |  | |  | `+ | |.+' |  | `+.|    |  | `+.| |  | `+.| |  | |  | |  | |  |      
+|  |  | | |  | |  | |  |  | |      |  |         |  |=|`.  |  |=|`.  |  |=|  | |  |'. '.      
+|  |  | | |  | |  | |  |  | |      |  |         |  | `.|  |  | `.|  |  | |  | |  | |  |      
+|  |  | | |  | |  | |  |  | |      |  |         |  |      |  |    . |  | |  | |  | |  |      
+|  | .+ | |  | |  | |  |  | |      |  |         |  |      |  | .+'| |  | |  | |  | |  |      
+`+.|=|.+' `+.|=|.+' `+.|  |.|      |.+'         `+.|      `+.|=|.+' `+.| |..| `+.| |.+'      
+                                                                                             
+   . .    .       . .       . .          . .       . .       . .       . .    .       . .    
+.+'|=|`+.=|`+. .+'| |`+. .+'|=|`+.    .+'|=|`+. .+'|=|`+. .+'|=|`+. .+'|=|`+.=|`+. .+'| |`+. 
+|.+' |  | `+.| |  | |  | |  | `+.|    |  | `+ | |  | `+.| |  | |  | |.+' |  | `+.| |  | |  | 
+     |  |      |  |=|  | |  |=|`.     |  |  | | |  |=|`.  |  |=|  |      |  |      |  |=|  | 
+     |  |      |  | |  | |  | `.|     |  |  | | |  | `.|  |  | |  |      |  |      |  | |  | 
+     |  |      |  | |  | |  |    .    |  |  | | |  |    . |  | |  |      |  |      |  | |  | 
+     |  |      |  | |  | |  | .+'|    |  | .+ | |  | .+'| |  | |  |      |  |      |  | |  | 
+     |.+'      `+.| |..| `+.|=|.+'    `+.|=|.+' `+.|=|.+' `+.| |..|      |.+'      `+.| |..| ";
     
-    
+    public static string PressAnyKeyToContinue = 
+        "Press any key to continue...";
+
+    public static string exit129 =
+        "129 - Reffering to Beta-Exit Status Code. Runs as 0, means something else... not sure what ¯\\_(ツ)_/¯";
+
+    public static string betaWarning =
+        "This is a beta reaction function. It's only for testing puposes and will not be present in the final version.";
 }
