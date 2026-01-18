@@ -2,7 +2,7 @@ using System.Runtime.InteropServices;                                           
 
 namespace Dont_Fear_The_Death;                                                                                          // Namespace der Anwendung
 
-public class FullscreenSet                                                                                                  // Klasse für Spieldaten und Eingabesteuerung
+public class FullscreenSet                                                                                              // Klasse zum Setzen des Vollbildmodus
 {
     public static void PressF11()                                                                                       // Methode zum Simulieren des Tastendrucks F11
     {
@@ -17,7 +17,7 @@ public class FullscreenSet                                                      
         inputs[1].type = INPUT_KEYBOARD;                                                                                // Tastendruck F11 (Up)
         inputs[1].U.ki.wVk = VK_F11;                                                                                    // Virtueller Tastencode für F11
         inputs[1].U.ki.wScan = 0;                                                                                       // Hardware-Scan-Code für die Taste
-        inputs[1].U.ki.dwFlags = KEYEVENTF_KEYUP;                                                                       // KEYEVENTF_KEYUP für Tastelosslassen
+        inputs[1].U.ki.dwFlags = KEYEVENTF_KEYUP;                                                                       // KEYEVENTF_KEYUP für Taste loslassen
         inputs[1].U.ki.time = 0;                                                                                        // Zeitstempel für das Ereignis
         inputs[1].U.ki.dwExtraInfo = IntPtr.Zero;                                                                       // Zusätzliche Informationen
 
@@ -29,7 +29,7 @@ public class FullscreenSet                                                      
     }
 
     const ushort VK_F11 = 0x7A;                                                                                         // Virtueller Tastencode für F11
-    const uint KEYEVENTF_KEYUP = 0x0002;                                                                                // Flag für Tastelosslassen
+    const uint KEYEVENTF_KEYUP = 0x0002;                                                                                // Flag für Taste loslassen
     const int INPUT_KEYBOARD = 1;                                                                                       // Eingabetyp für Tastatur
 
     [DllImport("user32.dll", SetLastError = true)]                                                               // Import der SendInput-Funktion aus user32.dll

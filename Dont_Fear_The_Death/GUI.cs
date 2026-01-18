@@ -14,4 +14,22 @@ public class GUI
 ║                                                                                                                     ║
 ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 ";
+
+    public static string OptionsMenu =
+        @"
+╔══╣ Options    ╠════════════════╗
+║  [1] Audio                     ║
+║  [2] Video                     ║
+║  [3] Controls                  ║
+║  [4] Back to Main Menu         ║
+╚════════════════════════════════╝
+";
+
+    public static string OptionsVideo =
+        @"
+╔══╣ Video Settings ╠════════════╗
+║  [1] Set Fullscreen            ║
+║  [2] Exit Video Settings       ║
+╚════════════════════════════════╝
+";
 }

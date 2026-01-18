@@ -11,10 +11,9 @@ class Program
             FullscreenSet.PressF11();
             Mechanic.del();
             Mechanic.mWait();
-            CenterText.WriteCentered(Message.MainMenuTitle);
-            Mechanic.sendALotOfWhiteSpaces(6);
-            CenterText.WriteCentered(GUI.MainMenuMenu);
-            Mechanic.testInput();
+            GameData.BootInit();
+            
+            MenuFunc.MenuExplore();
         }
         catch (Exception ex)
         {

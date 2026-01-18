@@ -27,7 +27,7 @@ public static class Message
      |  |      |  | |  | |  | .+'|    |  | .+ | |  | .+'| |  | |  |      |  |      |  | |  | 
      |.+'      `+.| |..| `+.|=|.+'    `+.|=|.+' `+.|=|.+' `+.| |..|      |.+'      `+.| |..| ";
     
-    public static string PressAnyKeyToContinue = 
+    public static string PAKTC = 
         "Press any key to continue...";
 
     public static string exit129 =
@@ -35,4 +35,7 @@ public static class Message
 
     public static string betaWarning =
         "This is a beta reaction function. It's only for testing puposes and will not be present in the final version.";
+
+    public static string invalidInput =
+        "Not a valid Input for now.";
 }

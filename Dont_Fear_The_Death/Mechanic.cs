@@ -24,7 +24,7 @@ public class Mechanic
 
     public static void testInput()
     {
-        Console.WriteLine(Message.PressAnyKeyToContinue);
+        Console.WriteLine(Message.PAKTC);
         Console.ReadKey();
         mWait();
     }
