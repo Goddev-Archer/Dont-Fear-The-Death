@@ -12,7 +12,7 @@ class Program
             Mechanic.del();
             Mechanic.mWait();
             CenterText.WriteCentered(Message.MainMenuTitle);
-            Mechanic.sendEmptyness();
+            Mechanic.sendALotOfWhiteSpaces(6);
             CenterText.WriteCentered(GUI.MainMenuMenu);
             Mechanic.testInput();
         }

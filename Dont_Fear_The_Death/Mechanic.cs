@@ -60,4 +60,13 @@ public class Mechanic
     {
         Console.WriteLine($"ERROR: {text}");
     }
+
+    public static void sendALotOfWhiteSpaces(int amount)
+    {
+        while (amount > 0)
+        {
+            Console.WriteLine();
+            amount--;
+        }
+    }
 }

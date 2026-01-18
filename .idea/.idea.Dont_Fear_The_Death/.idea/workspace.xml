@@ -9,9 +9,19 @@
   <component name="ChangeListManager">
     <list default="true" id="d7126404-0357-4ece-9941-985845c009d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont_Fear_The_Death/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont_Fear_The_Death/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/Message.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/Message.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/GUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/GUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/Mechanic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/Mechanic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/bin/Debug/net10.0/Dont_Fear_The_Death.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/bin/Debug/net10.0/Dont_Fear_The_Death.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/bin/Debug/net10.0/Dont_Fear_The_Death.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/bin/Debug/net10.0/Dont_Fear_The_Death.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/bin/Debug/net10.0/Dont_Fear_The_Death.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/bin/Debug/net10.0/Dont_Fear_The_Death.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/ref/Dont_Fear_The_Death.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/ref/Dont_Fear_The_Death.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/refint/Dont_Fear_The_Death.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/refint/Dont_Fear_The_Death.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +122,7 @@
       <workItem from="1768686635641" duration="692000" />
       <workItem from="1768691464619" duration="2379000" />
       <workItem from="1768693861584" duration="3768000" />
-      <workItem from="1768770446550" duration="2010000" />
+      <workItem from="1768770446550" duration="2935000" />
     </task>
     <servers />
   </component>
