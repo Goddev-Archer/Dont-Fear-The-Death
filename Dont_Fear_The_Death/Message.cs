@@ -38,4 +38,12 @@ public static class Message
 
     public static string invalidInput =
         "Not a valid Input for now.";
+
+    public static string Credits =
+        @"
+╔═════════╣ CREDITS ╠═════════╗
+║ This game was developed by: ║
+║        Goddev Archer        ║
+╚═════════════════════════════╝
+";
 }

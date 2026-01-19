@@ -76,6 +76,25 @@
           }
         }
       },
+      "System.Windows.Extensions/10.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/System.Windows.Extensions.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "Terminal.Gui/2.0.0-develop.4827": {
         "type": "package",
         "dependencies": {
@@ -333,6 +352,33 @@
         "system.io.abstractions.nuspec"
       ]
     },
+    "System.Windows.Extensions/10.0.2": {
+      "sha512": "FJEb7THQLoYQDSIfu656zidYmLFZTBE9gi/IdKpPV9KhGuMZL/xLpLpRNLr7WDt2oLNldae8Jp/1e2H+MPCxGg==",
+      "type": "package",
+      "path": "system.windows.extensions/10.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net10.0/System.Windows.Extensions.dll",
+        "lib/net10.0/System.Windows.Extensions.xml",
+        "lib/net8.0/System.Windows.Extensions.dll",
+        "lib/net8.0/System.Windows.Extensions.xml",
+        "lib/net9.0/System.Windows.Extensions.dll",
+        "lib/net9.0/System.Windows.Extensions.xml",
+        "runtimes/win/lib/net10.0/System.Windows.Extensions.dll",
+        "runtimes/win/lib/net10.0/System.Windows.Extensions.xml",
+        "runtimes/win/lib/net8.0/System.Windows.Extensions.dll",
+        "runtimes/win/lib/net8.0/System.Windows.Extensions.xml",
+        "runtimes/win/lib/net9.0/System.Windows.Extensions.dll",
+        "runtimes/win/lib/net9.0/System.Windows.Extensions.xml",
+        "system.windows.extensions.10.0.2.nupkg.sha512",
+        "system.windows.extensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Terminal.Gui/2.0.0-develop.4827": {
       "sha512": "xBu0jsohRx1kaT4BEp0GhiiePNTqPWPLnwITBBz38AzuHP/DQ84VcYp2ba7wb6qnr8SE3fQ35FipVb/LPmDYMQ==",
       "type": "package",
@@ -448,6 +494,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "System.Windows.Extensions >= 10.0.2",
       "Terminal.Gui >= 2.0.0-develop.4827"
     ]
   },
@@ -502,6 +549,10 @@
       "net10.0": {
         "targetAlias": "net10.0",
         "dependencies": {
+          "System.Windows.Extensions": {
+            "target": "Package",
+            "version": "[10.0.2, )"
+          },
           "Terminal.Gui": {
             "target": "Package",
             "version": "[2.0.0-develop.4827, )"

@@ -11,8 +11,8 @@ class Program
             FullscreenSet.PressF11();
             Mechanic.del();
             Mechanic.mWait();
-            GameData.BootInit();
             
+            Play.MenuSound();
             MenuFunc.MenuExplore();
         }
         catch (Exception ex)

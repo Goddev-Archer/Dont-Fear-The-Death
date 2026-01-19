@@ -14,20 +14,43 @@ public class MenuFunc
 
         while (run)
         {
+            GameData.BootInit();
             string input = Console.ReadLine();
             if (input == "1")
             {
+                run = false;
                 StartNewGame();
             }
             else if (input == "2")
             {
                 GameData.OptionsOpen();
+                OptionsExplore();
+            }
+            else if (input == "3")
+            {
+                Mechanic.del();
+                Mechanic.sWait();
+                Mechanic.sendALotOfWhiteSpaces(36);
+                CenterText.WriteCentered(Message.Credits);
+                Mechanic.sWait();
+                Mechanic.sendEmptyness();
+                CenterText.WriteCentered(Message.PAKTC);
+                Console.ReadKey();
+            }
+            else if (input == "4")
+            {
+                Mechanic.send("No Savings implemented yet.");
+            }
+            else if (input == "5")
+            {
+                Mechanic.del();
+                Mechanic.send(Message.exit129);
+                Mechanic.sWait();
+                Environment.Exit(129);
             }
             else
             {
                 Mechanic.send(Message.invalidInput);
-                Mechanic.mWait();
-                Mechanic.betaExit();
             }
         }
     }
@@ -41,17 +64,24 @@ public class MenuFunc
             string input = Console.ReadLine();
             if (input == "1")
             {
-                Mechanic.del();
-                Mechanic.sendALotOfWhiteSpaces(25);
+                Mechanic.sendEmptyness();
                 CenterText.WriteCentered("No Audio Settings available yet.");
                 Mechanic.lWait();
-                run = false;
             }
             else if (input == "2")
             {
-                Mechanic.sendALotOfWhiteSpaces(36);
-                CenterText.WriteCentered(GUI.OptionsMenu);
+                Mechanic.sendEmptyness();
+                CenterText.WriteCentered("No Video Settings available yet.");
                 Mechanic.lWait();
+            }
+            else if (input == "3")
+            {
+                Mechanic.sendEmptyness();
+                CenterText.WriteCentered("No control settings available yet.");
+                Mechanic.lWait();
+            }
+            else if (input == "4")
+            {
                 run = false;
             }
             else

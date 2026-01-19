@@ -14,8 +14,7 @@ public class GameData
     public static void OptionsOpen()
     {
         Mechanic.del();
-        Mechanic.sendALotOfWhiteSpaces(36);
-        Mechanic.send(GUI.OptionsMenu);
-        
+        Mechanic.sendALotOfWhiteSpaces(32);
+        CenterText.WriteCentered(GUI.OptionsMenu);
     }
 }
