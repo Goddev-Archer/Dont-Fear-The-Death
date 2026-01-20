@@ -51,7 +51,7 @@ public class MenuFunc
             }
             else
             {
-                Mechanic.send(Message.invalidInput);
+                CenterText.WriteCentered(Message.invalidInput);
             }
         }
     }
