@@ -5,7 +5,6 @@ public class MenuFunc
     public static void StartNewGame()
     {
         Mechanic.send("Not implemented yet.");
-        Mechanic.mWait();
     }
     
     public static void MenuExplore()

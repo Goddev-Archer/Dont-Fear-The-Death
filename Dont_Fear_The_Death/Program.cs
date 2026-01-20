@@ -14,6 +14,8 @@ class Program
             Mechanic.del();
             Mechanic.mWait();
             
+            Brand.LoadBrand();
+            
             Play.PlaySound("Menu.wav");
             MenuFunc.MenuExplore();
         }

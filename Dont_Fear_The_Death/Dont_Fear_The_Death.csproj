@@ -10,6 +10,6 @@
       <PackageReference Include="Terminal.Gui" Version="2.0.0-develop.4827" />
     </ItemGroup>
     <ItemGroup>
-      <EmbeddedResource Include="Sounds\Menu.wav" />
+      <EmbeddedResource Include="Sounds\**" />
     </ItemGroup>
 </Project>
