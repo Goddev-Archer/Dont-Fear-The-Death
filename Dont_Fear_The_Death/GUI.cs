@@ -32,4 +32,13 @@ public class GUI
 ║  [2] Exit Video Settings       ║
 ╚════════════════════════════════╝
 ";
+
+    public static string OptionsAudio =
+        @"
+╔══╣ Audio Settings ╠════════════╗
+║  [1] Toggle Music              ║
+║  [2] Toggle Sound Effects      ║
+║  [3] Exit Audio Settings       ║
+╚════════════════════════════════╝
+";
 }
