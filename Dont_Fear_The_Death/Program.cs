@@ -1,4 +1,6 @@
-﻿namespace Dont_Fear_The_Death;
+﻿using Terminal.Gui.Views;
+
+namespace Dont_Fear_The_Death;
 
 class Program
 {
@@ -12,7 +14,7 @@ class Program
             Mechanic.del();
             Mechanic.mWait();
             
-            Play.MenuSound();
+            Play.PlaySound("Menu.wav");
             MenuFunc.MenuExplore();
         }
         catch (Exception ex)

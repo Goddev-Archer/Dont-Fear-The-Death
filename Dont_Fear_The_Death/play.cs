@@ -7,13 +7,13 @@ namespace Dont_Fear_The_Death;
 
 public class Play
 {
-    public static void MenuSound()
+    public static void PlaySound(string file)
     {
         try 
         {
             // Extrahieren der Ressource in eine temporäre Datei
-            string resourceName = "Dont_Fear_The_Death.Sounds.Menu.wav";
-            string tempPath = Path.Combine(Path.GetTempPath(), "dftd_menu.wav");
+            string resourceName = "Dont_Fear_The_Death.Sounds." + file;
+            string tempPath = Path.Combine(Path.GetTempPath(), "dftd_" + file);
             
             // Nur extrahieren, wenn sie nicht existiert oder um sicherzugehen (optional file lock checks etc, aber hier keep simple)
             var assembly = Assembly.GetExecutingAssembly();
@@ -21,7 +21,10 @@ public class Play
             {
                 if (stream == null)
                 {
-                    // Fallback falls Resource nicht gefunden (sollte nicht passieren)
+                    // Fallback, falls Resource nicht gefunden (sollte nicht passieren)
+                    CenterText.WriteCentered(Message.betaWarning);
+                    Mechanic.sendEmptyness();
+                    CenterText.WriteCentered(Message.PlayerError);
                     return;
                 }
                 

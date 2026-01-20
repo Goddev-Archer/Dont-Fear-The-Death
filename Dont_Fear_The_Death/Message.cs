@@ -49,4 +49,7 @@ public static class Message
     
     public static string ClosingMessage = 
         "Thank you for playing Dont Fear The Death!\nStay tuned for more updates and content in the future.";
+
+    public static string PlayerError =
+        "Error related to Player Data encountered. Please contact support or lookup the code in git repository.";
 }
