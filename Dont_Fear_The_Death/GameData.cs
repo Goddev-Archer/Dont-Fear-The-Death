@@ -17,4 +17,11 @@ public class GameData
         Mechanic.sendALotOfWhiteSpaces(32);
         CenterText.WriteCentered(GUI.OptionsMenu);
     }
+
+    public static void VideoSettingsOpen()
+    {
+        Mechanic.del();
+        Mechanic.sendALotOfWhiteSpaces(32);
+        CenterText.WriteCentered(GUI.OptionsVideo);
+    }
 }

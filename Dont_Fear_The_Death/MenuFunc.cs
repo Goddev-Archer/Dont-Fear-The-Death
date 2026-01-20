@@ -71,9 +71,7 @@ public class MenuFunc
             }
             else if (input == "2")
             {
-                Mechanic.sendEmptyness();
-                CenterText.WriteCentered("No Video Settings available yet.");
-                Mechanic.lWait();
+                VideoSettingsExplore();
             }
             else if (input == "3")
             {
@@ -82,6 +80,32 @@ public class MenuFunc
                 Mechanic.lWait();
             }
             else if (input == "4")
+            {
+                run = false;
+            }
+            else
+            {
+                Mechanic.send(Message.invalidInput);
+                Mechanic.mWait();
+            }
+        }
+    }
+
+    public static void VideoSettingsExplore()
+    {
+        bool run = true;
+        while (run)
+        {
+            GameData.VideoSettingsOpen();
+            string input = Console.ReadLine();
+            if (input == "1")
+            {
+                FullscreenSet.PressF11();
+                Mechanic.sendEmptyness();
+                CenterText.WriteCentered("Toggled Fullscreen");
+                Mechanic.sWait();
+            }
+            else if (input == "2")
             {
                 run = false;
             }

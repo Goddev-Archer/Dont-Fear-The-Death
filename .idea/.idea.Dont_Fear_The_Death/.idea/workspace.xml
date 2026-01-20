@@ -8,22 +8,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7126404-0357-4ece-9941-985845c009d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/build_release.ps1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont_Fear_The_Death/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont_Fear_The_Death/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/Brand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/Brand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/Dont_Fear_The_Death.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/Dont_Fear_The_Death.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/GameData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/GameData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/MenuFunc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/MenuFunc.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/bin/Debug/net10.0/Dont_Fear_The_Death.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/bin/Debug/net10.0/Dont_Fear_The_Death.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/bin/Debug/net10.0/Dont_Fear_The_Death.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/bin/Debug/net10.0/Dont_Fear_The_Death.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/bin/Debug/net10.0/Dont_Fear_The_Death.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/bin/Debug/net10.0/Dont_Fear_The_Death.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/ref/Dont_Fear_The_Death.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/ref/Dont_Fear_The_Death.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/refint/Dont_Fear_The_Death.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/refint/Dont_Fear_The_Death.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Dont_Fear_The_Death.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Dont_Fear_The_Death.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Dont_Fear_The_Death.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Dont_Fear_The_Death.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +137,7 @@
       <workItem from="1768776077943" duration="2609000" />
       <workItem from="1768837389708" duration="3847000" />
       <workItem from="1768861158704" duration="2256000" />
-      <workItem from="1768863452017" duration="9165000" />
+      <workItem from="1768863452017" duration="10297000" />
     </task>
     <servers />
   </component>
@@ -141,6 +146,9 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ps1" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
