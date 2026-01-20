@@ -18,8 +18,8 @@ public class MenuFunc
             string input = Console.ReadLine();
             if (input == "1")
             {
-                run = false;
                 StartNewGame();
+                Mechanic.sWait();
             }
             else if (input == "2")
             {
@@ -44,8 +44,10 @@ public class MenuFunc
             else if (input == "5")
             {
                 Mechanic.del();
+                Mechanic.send(Message.ClosingMessage);
+                Mechanic.sendEmptyness();
                 Mechanic.send(Message.exit129);
-                Mechanic.sWait();
+                Mechanic.mWait();
                 Environment.Exit(129);
             }
             else
