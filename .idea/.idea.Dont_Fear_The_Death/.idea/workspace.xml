@@ -7,11 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7126404-0357-4ece-9941-985845c009d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont_Fear_The_Death/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont_Fear_The_Death/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/GUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/GUI.cs" afterDir="false" />
-    </list>
+    <list default="true" id="d7126404-0357-4ece-9941-985845c009d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +116,7 @@
       <workItem from="1768776077943" duration="2609000" />
       <workItem from="1768837389708" duration="3847000" />
       <workItem from="1768861158704" duration="2256000" />
-      <workItem from="1768863452017" duration="14210000" />
+      <workItem from="1768863452017" duration="15578000" />
     </task>
     <servers />
   </component>
