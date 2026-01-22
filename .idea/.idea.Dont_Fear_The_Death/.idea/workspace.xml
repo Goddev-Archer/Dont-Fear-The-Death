@@ -8,10 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7126404-0357-4ece-9941-985845c009d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/MenuFunc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/MenuFunc.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/Debug/net10.0/Dont_Fear_The_Death.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +122,7 @@
       <workItem from="1768863452017" duration="15578000" />
       <workItem from="1769068920205" duration="491000" />
       <workItem from="1769070979484" duration="1387000" />
+      <workItem from="1769082023698" duration="24000" />
     </task>
     <servers />
   </component>
