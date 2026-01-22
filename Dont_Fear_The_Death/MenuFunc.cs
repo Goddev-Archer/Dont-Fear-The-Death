@@ -9,9 +9,7 @@ public class MenuFunc
     
     public static void MenuExplore()
     {
-        bool run = true;
-
-        while (run)
+        while (true)
         {
             GameData.BootInit();
             string input = Console.ReadLine();
