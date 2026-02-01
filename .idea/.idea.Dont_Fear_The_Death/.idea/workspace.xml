@@ -8,13 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7126404-0357-4ece-9941-985845c009d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/GameFunction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont_Fear_The_Death/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont_Fear_The_Death/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/Dont_Fear_The_Death.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/Dont_Fear_The_Death.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/GameLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/MenuFunc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/MenuFunc.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/play.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/play.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +123,7 @@
       <workItem from="1769068920205" duration="491000" />
       <workItem from="1769070979484" duration="1387000" />
       <workItem from="1769082023698" duration="24000" />
-      <workItem from="1769982881063" duration="5003000" />
+      <workItem from="1769982881063" duration="5447000" />
     </task>
     <servers />
   </component>
