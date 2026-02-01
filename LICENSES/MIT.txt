@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Dont Fear The Death Developers
+Copyright (c) 2026 Goddev Archer & "Archer Independent Development Studio"
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
