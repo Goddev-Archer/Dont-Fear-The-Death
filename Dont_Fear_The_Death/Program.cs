@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace Dont_Fear_The_Death;
 
 class Program
