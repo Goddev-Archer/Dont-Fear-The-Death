@@ -15,7 +15,6 @@ class Program
             
             Brand.LoadBrand();
             
-            Play.PlaySound("Menu.wav");
             MenuFunc.MenuExplore();
         }
         catch (Exception ex)

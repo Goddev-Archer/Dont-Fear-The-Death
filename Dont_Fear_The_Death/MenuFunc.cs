@@ -2,21 +2,21 @@ namespace Dont_Fear_The_Death;
 
 public class MenuFunc
 {
-    public static void StartNewGame()
-    {
-        Mechanic.send("Not implemented yet.");
-    }
-    
     public static void MenuExplore()
     {
         while (true)
         {
+            if (!Play.IsPlaying("Menu.wav"))
+            {
+                Play.PlaySound("Menu.wav");
+            }
             GameData.BootInit();
             string input = Console.ReadLine();
             if (input == "1")
             {
-                StartNewGame();
-                Mechanic.sWait();
+                Play.StopSound();
+                Console.Clear();
+                GameLogic.RunDemo(2);
             }
             else if (input == "2")
             {
