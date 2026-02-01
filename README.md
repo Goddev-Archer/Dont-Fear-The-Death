@@ -9,10 +9,12 @@
 The purpose of the game is to watch, read, and immerse yourself in the story.
 
 ### Features
-- **Atmospheric Console Experience**: Custom text rendering and centering.
-- **Audio System**: Background music and sound effects integration.
+- **Visual Storytelling**: Frame-based ASCII art animations for immersive scenes.
+- **Cross-Platform Audio**: Dynamic sound engine supporting Windows, macOS, and Linux.
+- **Atmospheric Experience**: Custom text rendering, centering, and pacing.
 - **Video Settings**: Automated fullscreen mode (simulated F11).
 - **Menu System**: Interactive text-based menus for navigation.
+- **REUSE Compliant**: Strict separation of Open Source Code (MIT) and Proprietary Audio Assets.
 
 ### How to Run
 #### Method 1: Quick Run
@@ -34,14 +36,16 @@ The executable will be created in `Build\Release\`.
 ## <a id="deutsch"></a>Deutsch
 
 ### Über das Projekt
-"Dont Fear The Death" ist ein textbasiertes Erzählspiel, das vollständig in C# (.NET 10) entwickelt wurde. Der Fokus liegt auf atmosphärischem Storytelling durch Text, Visuals und Sound in einer Konsolenumgebung.
+"Dont Fear The Death" ist ein textbasiertes Erzählspiel, das vollständig in C# (.NET 10) entwickelt wurde. Der Fokus liegt auf atmosphärischem Storytelling durch Text, ASCII-Visuals und Sound in einer Konsolenumgebung.
 Das Ziel des Spiels ist es, zu beobachten, zu lesen und in die Geschichte einzutauchen.
 
 ### Funktionen
-- **Atmosphärisches Erlebnis**: Benutzerdefinierte Textdarstellung.
-- **Audiosystem**: Integration von Hintergrundmusik und Soundeffekten.
+- **Visuelles Erzählen**: Frame-basierte ASCII-Animationen für immersive Szenen.
+- **Cross-Platform Audio**: Dynamische Sound-Engine mit Unterstützung für Windows, macOS und Linux.
+- **Atmosphärisches Erlebnis**: Benutzerdefinierte Textdarstellung und Pacing.
 - **Video-Einstellungen**: Automatischer Vollbildmodus (F11-Simulation).
 - **Menüsystem**: Interaktive textbasierte Menüs zur Navigation.
+- **REUSE Konform**: Strenge Trennung von Open Source Code (MIT) und proprietären Audio-Assets.
 
 ### Starten des Spiels
 #### Methode 1: Schnellstart
