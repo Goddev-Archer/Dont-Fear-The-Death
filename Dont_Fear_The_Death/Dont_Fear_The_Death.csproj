@@ -11,5 +11,8 @@
     </ItemGroup>
     <ItemGroup>
       <EmbeddedResource Include="Sounds\**" />
+      <Content Include="Frames\**">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 </Project>
