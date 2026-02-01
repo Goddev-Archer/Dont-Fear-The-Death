@@ -8,12 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7126404-0357-4ece-9941-985845c009d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.reuse/dep5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSES/CC0-1.0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSES/LicenseRef-Audio-Proprietary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSES/MIT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE_AUDIO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +122,7 @@
       <workItem from="1769068920205" duration="491000" />
       <workItem from="1769070979484" duration="1387000" />
       <workItem from="1769082023698" duration="24000" />
-      <workItem from="1769982881063" duration="2037000" />
+      <workItem from="1769982881063" duration="2372000" />
     </task>
     <servers />
   </component>
