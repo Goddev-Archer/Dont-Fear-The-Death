@@ -8,8 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7126404-0357-4ece-9941-985845c009d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/GlobalUsings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dont_Fear_The_Death/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dont_Fear_The_Death/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE_AUDIO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont_Fear_The_Death/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont_Fear_The_Death/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +124,7 @@
       <workItem from="1769068920205" duration="491000" />
       <workItem from="1769070979484" duration="1387000" />
       <workItem from="1769082023698" duration="24000" />
-      <workItem from="1769982881063" duration="355000" />
+      <workItem from="1769982881063" duration="1363000" />
     </task>
     <servers />
   </component>
