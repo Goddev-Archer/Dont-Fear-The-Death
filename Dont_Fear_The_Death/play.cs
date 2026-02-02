@@ -1,14 +1,11 @@
-using System.Diagnostics;
-using System.Media;
-using System.Runtime.InteropServices;
+using NetCoreAudio;
 using System.Reflection;
 
 namespace Dont_Fear_The_Death;
 
 public class Play
 {
-    private static SoundPlayer? _activePlayer;
-    private static Process? _activeProcess;
+    private static readonly Player _player = new();
 
     public static string? CurrentTrack { get; private set; }
 
@@ -20,28 +17,7 @@ public class Play
     public static void StopSound()
     {
         CurrentTrack = null;
-        try
-        {
-            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-            {
-                _activePlayer?.Stop();
-                _activePlayer?.Dispose();
-                _activePlayer = null;
-            }
-            else
-            {
-                if (_activeProcess != null)
-                {
-                    if (!_activeProcess.HasExited)
-                    {
-                        _activeProcess.Kill();
-                    }
-                    _activeProcess.Dispose();
-                    _activeProcess = null;
-                }
-            }
-        }
-        catch { }
+        try { _player.Stop(); } catch { }
     }
 
     public static void PlaySound(string file)
@@ -73,41 +49,12 @@ public class Play
             
             StopSound();
             CurrentTrack = file;
-
-            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-            {
-                PlayWindows(tempPath);
-            }
-            else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
-            {
-                PlayMac(tempPath);
-            }
-            else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
-            {
-                PlayLinux(tempPath);
-            }
+            _player.Play(tempPath);
         }
         catch (Exception ex)
         {
             // Fehler stillschweigend ignorieren oder loggen
             // Console.WriteLine("Fehler beim Abspielen: " + ex.Message);
         }
-    }
-
-    [System.Runtime.Versioning.SupportedOSPlatform("windows")]
-    private static void PlayWindows(string path)
-    {
-        _activePlayer = new SoundPlayer(path);
-        _activePlayer.Play();
-    }
-
-    private static void PlayMac(string path)
-    {
-        try { _activeProcess = Process.Start("afplay", path); } catch {}
-    }
-
-    private static void PlayLinux(string path)
-    {
-        try { _activeProcess = Process.Start("aplay", path); } catch {}
     }
 }
